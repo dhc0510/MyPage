@@ -1,0 +1,21 @@
+@font-face {
+    font-family:Oswald;
+    src: 
+    local("Oswald"),
+    url("fonts/Oswald-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:Avenir Next;
+    src: 
+    local("Avenir Next"),
+    url("fonts/AvenirNextLTPro-Regular.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: Avenir Next;
+    src: 
+    local("Avenir Next"),
+    url("fonts/AvenirNextLTPro-Bold.otf") format("opentype ");
+}

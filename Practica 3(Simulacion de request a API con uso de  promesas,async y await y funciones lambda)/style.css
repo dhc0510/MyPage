@@ -1,0 +1,66 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height:100vh;
+    background-color: antiquewhite;
+}
+
+
+.title{
+    margin-top: 8vh;
+    margin-left: 35vw;
+}
+
+.container{
+    width: 100%;
+    margin-bottom: 4vh;
+    width: 500px;
+    background-color: lightblue;
+    margin-top: 3vh;
+    margin-left: 34vw;
+    .inner-container{
+        height: 500px;
+        width: 500px;
+        display: grid;
+        place-content: center;
+        gap: 20px;
+        input{
+            width: 150px;
+        }
+        button{
+            width: 100px;
+        }
+    }
+}
+
+
+
+.aux{
+    width: 100%;
+    margin-left: 3vw;
+    margin-bottom: 5vh;
+    margin-top: 10vh;
+    .notas-container{
+        padding: 2vh;
+        width: 500px;
+        height: 500px;
+        background-color: white;
+        .nota{
+            width: 100%;
+            font-size: 12px;
+            color: black;
+            margin-bottom: 1vh;
+        }
+        .negrita{
+            color: blue;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+}
+
+
